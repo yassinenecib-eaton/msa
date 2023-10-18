@@ -1,0 +1,124 @@
+{
+  "types": [ {"signed int": 1},{"unsigned int": 2}, {"float": 3} ],
+  "points": [
+    {
+      "name": "CONF_NAME",
+      "addr": 0,
+      "size": 2,
+      "type": 2,
+      "value": 476443695
+    },
+    {
+      "name": "CONF_STATE",
+      "addr": 2,
+      "size": 1,
+      "type": 2,
+      "value": 3
+    },
+    {
+      "name": "CONF_INIT",
+      "addr": 3,
+      "size": 1,
+      "type": 2,
+      "value": 1
+    },
+    {
+      "name": "CONF_T01",
+      "addr": 6,
+      "size": 2,
+      "type": 2,
+      "value": 476443695
+    },
+    {
+      "name": "CONF_T10",
+      "addr": 8,
+      "size": 2,
+      "type": 2,
+      "value": 476443695
+    },
+    {
+      "name": "CONF_T02",
+      "addr": 10,
+      "size": 2,
+      "type": 2,
+      "value": 0
+    },
+    {
+      "name": "CONF_T20",
+      "addr": 12,
+      "size": 2,
+      "type": 2,
+      "value": 0
+    },
+    {
+      "name": "CONF_T03",
+      "addr": 14,
+      "size": 2,
+      "type": 2,
+      "value": 0
+    },
+    {
+      "name": "CONF_T30",
+      "addr": 16,
+      "size": 2,
+      "type": 2,
+      "value": 476443695
+    },
+    {
+      "name": "CONF_T12",
+      "addr": 18,
+      "size": 2,
+      "type": 2,
+      "value": 476443695
+    },
+    {
+      "name": "CONF_T21",
+      "addr": 20,
+      "size": 2,
+      "type": 2,
+      "value": 476443695
+    },
+    {
+      "name": "CONF_T13",
+      "addr": 22,
+      "size": 2,
+      "type": 2,
+      "value": 476443695
+    },
+    {
+      "name": "CONF_T31",
+      "addr": 24,
+      "size": 2,
+      "type": 2,
+      "value": 476443695
+    },
+    {
+      "name": "CONF_T23",
+      "addr": 26,
+      "size": 2,
+      "type": 2,
+      "value": 476443695
+    },
+    {
+      "name": "CONF_T32",
+      "addr": 28,
+      "size": 2,
+      "type": 2,
+      "value": 476443695
+    },
+    {
+      "name": "AO_RunSt_BU1PV1",
+      "addr": 80,
+      "size": 1,
+      "type": 1,
+      "value": -10
+    },
+    {
+      "name": "AO_F_BU1PV1",
+      "addr": 81,
+      "size": 1,
+      "type": 2,
+      "value": 50
+    }
+  ]
+}
