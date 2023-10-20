@@ -32,3 +32,4 @@ Keywords : Online/Incremental capture (telemetry) data from any capable MODBUS a
 	- [x] Windows Intel/AMD64
  - [ ] MODBUS ...
 	- [x] support signed, unsigned, float
+	- [x] support write (holding) registers 0x06 and 0x10

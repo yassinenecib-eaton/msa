@@ -26,7 +26,7 @@ int main(int argc, char** argv) { // Write to Modbus TCP register
   ondemand::document d = parser.iterate(json);
 
   for (auto asset : d["assets"]) {
-    if (asset["id"].get_uint64() == 1) {
+    if (asset["id"].get_uint64() == assetid) {
       std::string sIP = std::string{ std::string_view(asset["ip"]) };
       if (strlen(sIP.c_str()) < sizeof(ip)) { strcpy(ip, sIP.c_str()); }
       port = (int)asset["port"].get_uint64();
@@ -61,14 +61,25 @@ int main(int argc, char** argv) { // Write to Modbus TCP register
         switch (w) {
         case 1: { int32_t t1 = point["value"].get_int64();
           if (size == 1) rc = modbus_write_register(ctx, addr, t1);
-          else { MODBUS_SET_INT32_TO_INT16(data, 0, t1); rc = modbus_write_registers(ctx, addr, size, data); }
+          else {
+            MODBUS_SET_INT32_TO_INT16(data, 0, t1);
+            rc = modbus_write_registers(ctx, addr, size, data);
+          }
           break; }
         case 2: { uint32_t t2 = point["value"].get_uint64();
           if (size == 1) rc = modbus_write_register(ctx, addr, t2);
-          else { MODBUS_SET_INT32_TO_INT16(data, 0, t2); rc = modbus_write_registers(ctx, addr, size, data); }
+          else {
+            MODBUS_SET_INT32_TO_INT16(data, 0, t2);
+            rc = modbus_write_registers(ctx, addr, size, data);
+          }
           break; }
         case 3: { double t3 = point["value"].get_double();
-          modbus_set_float_dcba((float)t3, data); rc = modbus_write_registers(ctx, addr, size, data);
+#if defined(_MSC_VER)
+          modbus_set_float_dcba((float)t3, data);
+#elif defined(__GNUC__)
+          modbus_set_float_abcd((float)t3, data);
+#endif
+          rc = modbus_write_registers(ctx, addr, size, data);
           break; }
         }
 
