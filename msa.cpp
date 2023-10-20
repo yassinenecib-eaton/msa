@@ -22,7 +22,7 @@ int main(int argc, char** argv) { // Write to Modbus TCP register
   if ((argc - 1) / 2 != k || k == 0) { std::cout << "MSA - MODBUS Collector Agent by Guy Francoeur (c) 2023\nUsage : " << argv[0] << "\n\t{--runfor 00:30}\n\t{--id 1}\n\t{--assetid 1}\n\t{--config ./file.json}\n--runfor\tHourMinute the application will be running. It stops after HH:MM human time;\n--id    \tThe configuration ID to use;\n--assetid \tThe asset ID to use;\n--config\tThe json configuration file to use;\n\n"; return 0; }
 
   ondemand::parser parser;
-  auto json = padded_string::load("../../../config-set.json");
+  auto json = padded_string::load(f);
   ondemand::document d = parser.iterate(json);
 
   for (auto asset : d["assets"]) {
