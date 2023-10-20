@@ -5,4 +5,4 @@ msa: msa.cpp
 
 test: msa
 	/usr/bin/time -f"Executed:%es\nRAM:%MKb\nSystem:%Ss" ./msa --assetid 1 --config ./config-msa.json
-	./mca
+	./msa
