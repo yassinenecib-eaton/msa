@@ -1,124 +1,471 @@
 {
-  "types": [ {"signed int": 1},{"unsigned int": 2}, {"float": 3} ],
-  "points": [
+  "types": [
+    { "signed int": 1 },
+    { "unsigned int": 2 },
+    { "float": 3 }
+  ],
+  "assets": [
     {
-      "name": "CONF_NAME",
-      "addr": 0,
-      "size": 2,
-      "type": 2,
-      "value": 476443695
+      "id": 1,
+      "ip": "166.99.230.91",
+      "port": 55502,
+      "points": [
+        {
+          "name": "CONF_NAME",
+          "addr": 0,
+          "size": 2,
+          "type": 2,
+          "value": 476443695
+        },
+        {
+          "name": "CONF_STATE",
+          "addr": 2,
+          "size": 1,
+          "type": 2,
+          "value": 3
+        },
+        {
+          "name": "CONF_INIT",
+          "addr": 3,
+          "size": 1,
+          "type": 2,
+          "value": 1
+        },
+        {
+          "name": "CONF_TEST",
+          "addr": 4,
+          "size": 2,
+          "type": 3,
+          "value": 88.88
+        },
+        {
+          "name": "CONF_T01",
+          "addr": 6,
+          "size": 2,
+          "type": 2,
+          "value": 476443695
+        },
+        {
+          "name": "CONF_T10",
+          "addr": 8,
+          "size": 2,
+          "type": 2,
+          "value": 476443695
+        },
+        {
+          "name": "CONF_T02",
+          "addr": 10,
+          "size": 2,
+          "type": 2,
+          "value": 0
+        },
+        {
+          "name": "CONF_T20",
+          "addr": 12,
+          "size": 2,
+          "type": 2,
+          "value": 0
+        },
+        {
+          "name": "CONF_T03",
+          "addr": 14,
+          "size": 2,
+          "type": 2,
+          "value": 0
+        },
+        {
+          "name": "CONF_T30",
+          "addr": 16,
+          "size": 2,
+          "type": 2,
+          "value": 476443695
+        },
+        {
+          "name": "CONF_T12",
+          "addr": 18,
+          "size": 2,
+          "type": 2,
+          "value": 476443695
+        },
+        {
+          "name": "CONF_T21",
+          "addr": 20,
+          "size": 2,
+          "type": 2,
+          "value": 476443695
+        },
+        {
+          "name": "CONF_T13",
+          "addr": 22,
+          "size": 2,
+          "type": 2,
+          "value": 476443695
+        },
+        {
+          "name": "CONF_T31",
+          "addr": 24,
+          "size": 2,
+          "type": 2,
+          "value": 476443695
+        },
+        {
+          "name": "CONF_T23",
+          "addr": 26,
+          "size": 2,
+          "type": 2,
+          "value": 476443695
+        },
+        {
+          "name": "CONF_T32",
+          "addr": 28,
+          "size": 2,
+          "type": 2,
+          "value": 476443695
+        }
+      ]
     },
     {
-      "name": "CONF_STATE",
-      "addr": 2,
-      "size": 1,
-      "type": 2,
-      "value": 3
-    },
-    {
-      "name": "CONF_INIT",
-      "addr": 3,
-      "size": 1,
-      "type": 2,
-      "value": 1
-    },
-    {
-      "name": "CONF_T01",
-      "addr": 6,
-      "size": 2,
-      "type": 2,
-      "value": 476443695
-    },
-    {
-      "name": "CONF_T10",
-      "addr": 8,
-      "size": 2,
-      "type": 2,
-      "value": 476443695
-    },
-    {
-      "name": "CONF_T02",
-      "addr": 10,
-      "size": 2,
-      "type": 2,
-      "value": 0
-    },
-    {
-      "name": "CONF_T20",
-      "addr": 12,
-      "size": 2,
-      "type": 2,
-      "value": 0
-    },
-    {
-      "name": "CONF_T03",
-      "addr": 14,
-      "size": 2,
-      "type": 2,
-      "value": 0
-    },
-    {
-      "name": "CONF_T30",
-      "addr": 16,
-      "size": 2,
-      "type": 2,
-      "value": 476443695
-    },
-    {
-      "name": "CONF_T12",
-      "addr": 18,
-      "size": 2,
-      "type": 2,
-      "value": 476443695
-    },
-    {
-      "name": "CONF_T21",
-      "addr": 20,
-      "size": 2,
-      "type": 2,
-      "value": 476443695
-    },
-    {
-      "name": "CONF_T13",
-      "addr": 22,
-      "size": 2,
-      "type": 2,
-      "value": 476443695
-    },
-    {
-      "name": "CONF_T31",
-      "addr": 24,
-      "size": 2,
-      "type": 2,
-      "value": 476443695
-    },
-    {
-      "name": "CONF_T23",
-      "addr": 26,
-      "size": 2,
-      "type": 2,
-      "value": 476443695
-    },
-    {
-      "name": "CONF_T32",
-      "addr": 28,
-      "size": 2,
-      "type": 2,
-      "value": 476443695
-    },
-    {
-      "name": "AO_RunSt_BU1PV1",
-      "addr": 80,
-      "size": 1,
-      "type": 1,
-      "value": -10
-    },
-    {
-      "name": "AO_F_BU1PV1",
-      "addr": 81,
-      "size": 1,
-      "type": 2,
-      "value": 50
+      "id": 2,
+      "ip": "166.99.230.91",
+      "port": 502,
+      "points": [
+        {
+          "name": "AO_BMSmaxPchrg_BU1ES1",
+          "addr": 30,
+          "size": 2,
+          "type": 3,
+          "value": 30
+        },
+        {
+          "name": "AO_BMSmaxPdsch_BU1ES1",
+          "addr": 32,
+          "size": 2,
+          "type": 3,
+          "value": 32
+        },
+        {
+          "name": "AO_BMSmaxSOC_BU1ES1",
+          "addr": 102,
+          "size": 1,
+          "type": 1,
+          "value": 102
+        },
+        {
+          "name": "AO_BMSminSOC_BU1ES1",
+          "addr": 103,
+          "size": 1,
+          "type": 1,
+          "value": 103
+        },
+        {
+          "name": "AO_BMSmaxIchrg_BU1ES1",
+          "addr": 104,
+          "size": 1,
+          "type": 1,
+          "value": 104
+        },
+        {
+          "name": "AO_BMSmaxIdsch_BU1ES1",
+          "addr": 105,
+          "size": 1,
+          "type": 1,
+          "value": 105
+        },
+        {
+          "name": "AO_BMSBattSt_BU1ES1",
+          "addr": 109,
+          "size": 1,
+          "type": 2,
+          "value": 109
+        },
+        {
+          "name": "AO_BMSChaSt_BU1ES1",
+          "addr": 110,
+          "size": 1,
+          "type": 2,
+          "value": 110
+        },
+        {
+          "name": "AO_BMSmod43LR_BU1ES1",
+          "addr": 111,
+          "size": 1,
+          "type": 2,
+          "value": 111
+        },
+        {
+          "name": "AO_BMSSOC_BU1ES1",
+          "addr": 112,
+          "size": 1,
+          "type": 1,
+          "value": 112
+        },
+        {
+          "name": "AO_BMSIdc_BU1ES1",
+          "addr": 113,
+          "size": 1,
+          "type": 1,
+          "value": 113
+        },
+        {
+          "name": "AO_BMSVdc_BU1ES1",
+          "addr": 114,
+          "size": 1,
+          "type": 1,
+          "value": 114
+        },
+        {
+          "name": "AO_F_BU1",
+          "addr": 60,
+          "size": 1,
+          "type": 2,
+          "value": 60
+        },
+        {
+          "name": "AO_Vab_BU1",
+          "addr": 61,
+          "size": 1,
+          "type": 1,
+          "value": 61
+        },
+        {
+          "name": "AO_Vbc_BU1",
+          "addr": 62,
+          "size": 1,
+          "type": 1,
+          "value": 62
+        },
+        {
+          "name": "AO_Vca_BU1",
+          "addr": 63,
+          "size": 1,
+          "type": 1,
+          "value": 63
+        },
+        {
+          "name": "AO_PF_BU1GN1",
+          "addr": 23,
+          "size": 1,
+          "type": 1,
+          "value": 23
+        },
+        {
+          "name": "AO_F_BU1GN1",
+          "addr": 24,
+          "size": 1,
+          "type": 2,
+          "value": 24
+        },
+        {
+          "name": "AO_Vab_BU1GN1",
+          "addr": 25,
+          "size": 1,
+          "type": 1,
+          "value": 25
+        },
+        {
+          "name": "AO_Psum_BU1GN1",
+          "addr": 48,
+          "size": 2,
+          "type": 3,
+          "value": 48
+        },
+        {
+          "name": "AO_Qsum_BU1GN1",
+          "addr": 50,
+          "size": 2,
+          "type": 3,
+          "value": 50
+        },
+        {
+          "name": "AO_Ssum_BU1GN1",
+          "addr": 52,
+          "size": 2,
+          "type": 3,
+          "value": 52
+        },
+        {
+          "name": "AO_PCSmaxPdsch_BU1ES1",
+          "addr": 34,
+          "size": 2,
+          "type": 3,
+          "value": 34
+        },
+        {
+          "name": "AO_PCSmaxPchrg_BU1ES1",
+          "addr": 36,
+          "size": 2,
+          "type": 3,
+          "value": 36
+        },
+        {
+          "name": "AO_PCSmaxQrated_BU1ES1",
+          "addr": 38,
+          "size": 2,
+          "type": 3,
+          "value": 38
+        },
+        {
+          "name": "AO_PCSkW_BU1ES1",
+          "addr": 40,
+          "size": 2,
+          "type": 3,
+          "value": 40
+        },
+        {
+          "name": "AO_PCSkVar_BU1ES1",
+          "addr": 42,
+          "size": 2,
+          "type": 3,
+          "value": 42
+        },
+        {
+          "name": "AO_PCSkVA_BU1ES1",
+          "addr": 44,
+          "size": 2,
+          "type": 3,
+          "value": 44
+        },
+        {
+          "name": "AO_PCSVdc_BU1ES1",
+          "addr": 115,
+          "size": 1,
+          "type": 1,
+          "value": 115
+        },
+        {
+          "name": "AO_PCSFreq_BU1ES1",
+          "addr": 116,
+          "size": 1,
+          "type": 1,
+          "value": 116
+        },
+        {
+          "name": "AO_PCSVll_BU1ES1",
+          "addr": 117,
+          "size": 1,
+          "type": 1,
+          "value": 117
+        },
+        {
+          "name": "AO_PCSPF_BU1ES1",
+          "addr": 118,
+          "size": 1,
+          "type": 1,
+          "value": 118
+        },
+        {
+          "name": "AO_InputWord_BU1UT1",
+          "addr": 0,
+          "size": 1,
+          "type": 1,
+          "value": 0
+        },
+        {
+          "name": "AO_RunSt_BU1PV1",
+          "addr": 80,
+          "size": 1,
+          "type": 1,
+          "value": 80
+        },
+        {
+          "name": "AO_F_BU1PV1",
+          "addr": 81,
+          "size": 1,
+          "type": 2,
+          "value": 81
+        },
+        {
+          "name": "AO_Vab_BU1PV1",
+          "addr": 82,
+          "size": 1,
+          "type": 1,
+          "value": 82
+        },
+        {
+          "name": "AO_Psum_BU1PV1",
+          "addr": 85,
+          "size": 2,
+          "type": 3,
+          "value": 85
+        },
+        {
+          "name": "AO_Qsum_BU1PV1",
+          "addr": 87,
+          "size": 2,
+          "type": 3,
+          "value": 87
+        },
+        {
+          "name": "AO_F_BU1UT1",
+          "addr": 70,
+          "size": 1,
+          "type": 2,
+          "value": 70
+        },
+        {
+          "name": "AO_Vab_BU1UT1",
+          "addr": 71,
+          "size": 1,
+          "type": 1,
+          "value": 71
+        },
+        {
+          "name": "AO_Vbc_BU1UT1",
+          "addr": 72,
+          "size": 1,
+          "type": 1,
+          "value": 72
+        },
+        {
+          "name": "AO_Vca_BU1UT1",
+          "addr": 73,
+          "size": 1,
+          "type": 1,
+          "value": 73
+        },
+        {
+          "name": "AO_Ssum_BU1UT1",
+          "addr": 76,
+          "size": 1,
+          "type": 1,
+          "value": 76
+        },
+        {
+          "name": "AO_PF_BU1UT1",
+          "addr": 77,
+          "size": 1,
+          "type": 1,
+          "value": 77
+        },
+        {
+          "name": "AO_VabAn_BU1UT1",
+          "addr": 79,
+          "size": 1,
+          "type": 1,
+          "value": 79
+        },
+        {
+          "name": "AO_Psum_BU1UT1",
+          "addr": 91,
+          "size": 2,
+          "type": 3,
+          "value": 91.1
+        },
+        {
+          "name": "AO_Qsum_BU1UT1",
+          "addr": 93,
+          "size": 2,
+          "type": 3,
+          "value": 93.3
+        },
+        {
+          "name": "AO_Qsum_BU1UT1",
+          "addr": 93,
+          "size": 2,
+          "type": 3,
+          "value": 93.5
+        }
+      ]
     }
   ]
 }
