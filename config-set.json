@@ -603,7 +603,7 @@
           "addr": 2,
           "size": 1,
           "type": 2,
-          "value": 3
+          "value": 2
         },
         {
           "name": "CONF_INIT",
