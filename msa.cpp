@@ -47,7 +47,6 @@ int main(int argc, char** argv) { // Write to Modbus TCP register
     return -1;
   }
 
-  printf("%d\n", modbus_get_slave(ctx));  // check the slaveID ...
   modbus_set_slave(ctx, 1); // required
 
   for (auto asset : d["assets"]) {
@@ -81,6 +80,7 @@ int main(int argc, char** argv) { // Write to Modbus TCP register
 #endif
           rc = modbus_write_registers(ctx, addr, size, data);
           break; }
+        case 4: { int t1 = (int)point["value"].get_int64();  rc = modbus_write_bit(ctx, addr, t1); }
         }
 
         if (rc != size) {

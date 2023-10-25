@@ -354,13 +354,6 @@
           "value": 118
         },
         {
-          "name": "AO_InputWord_BU1UT1",
-          "addr": 0,
-          "size": 1,
-          "type": 1,
-          "value": 0
-        },
-        {
           "name": "AO_RunSt_BU1PV1",
           "addr": 80,
           "size": 1,
@@ -449,21 +442,259 @@
           "addr": 91,
           "size": 2,
           "type": 3,
-          "value": 91.1
+          "value": 91
         },
         {
           "name": "AO_Qsum_BU1UT1",
           "addr": 93,
           "size": 2,
           "type": 3,
-          "value": 93.3
+          "value": 93
         },
         {
-          "name": "AO_Qsum_BU1UT1",
-          "addr": 93,
-          "size": 2,
-          "type": 3,
-          "value": 93.5
+          "name": "BO_GenStR1_BU1GN1ReadySt",
+          "addr": 200,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR1_BU1GN1CrankSt",
+          "addr": 201,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR1_BU1GN1RunSt",
+          "addr": 202,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR1_BU1GN1CooldwnSt",
+          "addr": 203,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR1_BU1GN1ConnSt",
+          "addr": 204,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR1_BU1GN1DisconSt",
+          "addr": 205,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR1_BU1GN1EngRunSt",
+          "addr": 206,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR1_BU1GN1SpareR1",
+          "addr": 207,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR2_BU1GN1ModAutoSt",
+          "addr": 208,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR2_BU1GN1ModOffSt",
+          "addr": 209,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR2_BU1GN1ModRunSt",
+          "addr": 210,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR2_BU1GN1BaseLoadSt",
+          "addr": 211,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR2_BU1GN1GenSyncAct",
+          "addr": 212,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR2_BU1GN1GenBkrSt",
+          "addr": 213,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR2_BU1GN1SpareR2",
+          "addr": 214,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_GenStR2_BU1GN1CommonAlm",
+          "addr": 215,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_CtrlType_BU1GN1",
+          "addr": 216,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "CommFail",
+          "addr": 1,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_CtrlType_BU1ES1",
+          "addr": 99,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_PCSFaultSt_BU1ES1",
+          "addr": 100,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_PCSRunSt_BU1ES1",
+          "addr": 101,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_RemBrkClose_BU1ES1",
+          "addr": 102,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_RemSyncReady_BU1ES1",
+          "addr": 103,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_StartRemSync_BU1ES1",
+          "addr": 104,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_Vform_BU1ES1",
+          "addr": 105,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "CommFail",
+          "addr": 1,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_brkCtrlType_BU1LD1",
+          "addr": 11,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_brkCtrlType_BU1LD2",
+          "addr": 12,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_brkCtrlType_BU1LD3",
+          "addr": 13,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_CtrlType_BU1LD1",
+          "addr": 14,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_CtrlType_BU1LD2",
+          "addr": 15,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_CtrlType_BU1LD3",
+          "addr": 16,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "CommFail",
+          "addr": 1,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "BO_CtrlType_BU1PV1",
+          "addr": 80,
+          "size": 1,
+          "type": 4,
+          "value": 1
+        },
+        {
+          "name": "CommFail",
+          "addr": 1,
+          "size": 1,
+          "type": 4,
+          "value": 1
         }
       ]
     },
@@ -519,14 +750,14 @@
           "addr": 10,
           "size": 2,
           "type": 2,
-          "value": 0
+          "value": 2969371935
         },
         {
           "name": "CONF_T20",
           "addr": 12,
           "size": 2,
           "type": 2,
-          "value": 0
+          "value": 2969371935
         },
         {
           "name": "CONF_T03",
@@ -603,14 +834,14 @@
           "addr": 2,
           "size": 1,
           "type": 2,
-          "value": 2
+          "value": 4
         },
         {
           "name": "CONF_INIT",
           "addr": 3,
           "size": 1,
           "type": 2,
-          "value": 1
+          "value": 4
         },
         {
           "name": "CONF_TEST",
@@ -652,28 +883,28 @@
           "addr": 14,
           "size": 2,
           "type": 2,
-          "value": 0
+          "value": 2969371935
         },
         {
           "name": "CONF_T30",
           "addr": 16,
           "size": 2,
           "type": 2,
-          "value": 476443695
+          "value": 2969371935
         },
         {
           "name": "CONF_T12",
           "addr": 18,
           "size": 2,
           "type": 2,
-          "value": 476443695
+          "value": 0
         },
         {
           "name": "CONF_T21",
           "addr": 20,
           "size": 2,
           "type": 2,
-          "value": 476443695
+          "value": 0
         },
         {
           "name": "CONF_T13",
@@ -694,14 +925,49 @@
           "addr": 26,
           "size": 2,
           "type": 2,
-          "value": 476443695
+          "value": 1440747098
         },
         {
           "name": "CONF_T32",
           "addr": 28,
           "size": 2,
           "type": 2,
-          "value": 476443695
+          "value": 1440747098
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "ip": "127.0.0.1",
+      "port": 502,
+      "points": [
+        {
+          "name": "ONE",
+          "addr": 0,
+          "size": 2,
+          "type": 1,
+          "value": -2123456789
+        },
+        {
+          "name": "TWO",
+          "addr": 2,
+          "size": 2,
+          "type": 2,
+          "value": 4123456789
+        },
+        {
+          "name": "THREE",
+          "addr": 4,
+          "size": 2,
+          "type": 3,
+          "value": 987654321.96
+        },
+        {
+          "name": "FOUR",
+          "addr": 1,
+          "size": 1,
+          "type": 4,
+          "value": 1
         }
       ]
     }
