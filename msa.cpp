@@ -10,7 +10,7 @@ using namespace simdjson;
 int main(int argc, char** argv) { // Write to Modbus TCP register
 
   uint16_t i = 0, k = 0, assetid = 0;
-  char f[128] = "../../../config-mca.json";
+  char f[128] = "./config-msa.json";
   char ip[16] = "0.0.0.0";
   int port = 0;
 
