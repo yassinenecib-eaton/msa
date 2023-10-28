@@ -26,10 +26,23 @@ Keywords : Online/Incremental capture (telemetry) data from any capable MODBUS a
 ![](https://img.shields.io/badge/language-c%2B%2B-blueviolet)
 
 #### Features
- - [x] Cross-Platform no changes/hardcode in code
+ - [x] Cross-Platform without any changesto the source code
 	- [x] Linux ARM
 	- [x] Linux Intel/AMD64
 	- [x] Windows Intel/AMD64
+	- [x] DA-3000 ARM64 via toolchain
  - [ ] MODBUS ...
-	- [x] support signed, unsigned, float
-	- [x] support write (holding) registers 0x06 and 0x10
+	- [x] support : signed, unsigned, float, bit
+	- [x] support : write (holding) registers 0x05, 0x06, 0x0F and 0x10
+
+
+# Multi Architecture setup (cross plaform development from an Adventech for example)
+
+For more details, take a look at the Makefile
+
+```
+# as root/sudo
+dpkg --add-architecture arm64
+apt update
+apt install -y libmodbus-dev:arm64 libsimdjson-dev:arm64
+```

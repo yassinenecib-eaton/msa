@@ -722,7 +722,7 @@
           "addr": 3,
           "size": 1,
           "type": 2,
-          "value": 0
+          "value": 2
         },
         {
           "name": "CONF_TEST",
@@ -778,14 +778,14 @@
           "addr": 18,
           "size": 2,
           "type": 2,
-          "value": 476443695
+          "value": 0
         },
         {
           "name": "CONF_T21",
           "addr": 20,
           "size": 2,
           "type": 2,
-          "value": 476443695
+          "value": 0
         },
         {
           "name": "CONF_T13",
