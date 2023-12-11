@@ -4,7 +4,7 @@
 #include <chrono>   //chrono C++20
 #include <cstdio>   //printf
 #include <iostream> //cout
-#include "simdjson.h"
+#include <simdjson.h>
 using namespace simdjson;
 
 int main(int argc, char** argv) { // Write to Modbus TCP register
